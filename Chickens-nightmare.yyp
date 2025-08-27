@@ -35,6 +35,7 @@
   },
   "name":"Chickens-nightmare",
   "resources":[
+    {"id":{"name":"Obj_die","path":"objects/Obj_die/Obj_die.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
     {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
