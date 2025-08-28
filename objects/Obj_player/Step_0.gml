@@ -33,6 +33,8 @@ if place_meeting(x , y + yspd, Obj_wall) == true
 	fall=0;
 	}
 
+
+
 	
 		
 

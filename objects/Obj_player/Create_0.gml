@@ -9,3 +9,4 @@ jump_speed = 4;
 fall = 0;
 
 jumpamount = 0;
+
