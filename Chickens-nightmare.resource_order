@@ -19,6 +19,7 @@
   "ResourceOrderSettings":[
     {"name":"Obj_die","order":2,"path":"objects/Obj_die/Obj_die.yy",},
     {"name":"Obj_wall","order":1,"path":"objects/Obj_wall/Obj_wall.yy",},
+    {"name":"spr_chicken","order":3,"path":"sprites/spr_chicken/spr_chicken.yy",},
     {"name":"Spr_die","order":2,"path":"sprites/Spr_die/Spr_die.yy",},
     {"name":"Spr_wall","order":1,"path":"sprites/Spr_wall/Spr_wall.yy",},
     {"name":"Sprite2","order":16,"path":"sprites/Sprite2/Sprite2.yy",},
