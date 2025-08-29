@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_die",
+  "%Name":"obj_checkpoint",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_die",
+  "name":"obj_checkpoint",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_die",
-    "path":"sprites/Spr_die/Spr_die.yy",
+    "name":"spr_check_off",
+    "path":"sprites/spr_check_off/spr_check_off.yy",
   },
   "spriteMaskId":null,
   "visible":true,

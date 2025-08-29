@@ -3,7 +3,9 @@ left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 
+if obj_manager.move = true{
 xspd = (right_key-left_key)*move_speed;
+}
 //yspd= (-up_key)*jump_speed;
 
 //collisions
@@ -13,7 +15,9 @@ xspd = (right_key-left_key)*move_speed;
 if place_meeting(x , y + 0.005, Obj_wall) == true
 	{
 		if(keyboard_check(vk_up)){
+			if obj_manager.move = true{
 		yspd=-jump_speed;
+			}
 		
 		}
 		fall=0;
