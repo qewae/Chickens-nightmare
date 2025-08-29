@@ -1,0 +1,1 @@
+checkpoint = inst_checkroom1
