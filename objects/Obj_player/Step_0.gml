@@ -37,7 +37,35 @@ if place_meeting(x , y + yspd, Obj_wall) == true
 	fall=0;
 	}
 
-
+if place_meeting(x + xspd, y, Obj_die) == true
+	{
+	if obj_manager.hp > 0{
+	obj_manager.hp = 0
+	Obj_player.sprite_index = spr_dead
+	obj_manager.dead = true
+	}
+	}
+if place_meeting(x , y + yspd, Obj_die) == true
+	{
+	if obj_manager.hp > 0{
+	obj_manager.hp = 0
+	Obj_player.sprite_index = spr_dead
+	obj_manager.dead = true
+	}
+	}
+	if place_meeting(x , y + 0.005, Obj_die) == true
+	{
+	if obj_manager.hp > 0{
+	obj_manager.hp = 0
+	Obj_player.sprite_index = spr_dead
+	obj_manager.dead = true
+	
+	}
+	}
+//if obj_manager.dead = true {
+//	restart = obj_check_manager.check_room
+//	room_goto(restart)
+//}
 
 	
 		

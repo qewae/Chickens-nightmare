@@ -10,3 +10,5 @@ fall = 0;
 
 jumpamount = 0;
 
+restart = noone
+
