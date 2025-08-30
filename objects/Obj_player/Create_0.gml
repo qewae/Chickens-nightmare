@@ -2,7 +2,7 @@ xspd = 0;
 
 yspd = 0;
 
-move_speed = 1;
+move_speed = 2;
 
 jump_speed = 4;
 
@@ -12,3 +12,4 @@ jumpamount = 0;
 
 restart = noone
 
+canjump =0;

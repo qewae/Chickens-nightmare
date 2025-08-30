@@ -13,6 +13,8 @@ if place_meeting(x + xspd,y,Obj_wall) == true{
 		x = x + 3
 	}
 }
+
+
 //if place_meeting(x - xspd,y,Obj_wall) == true{
 //	if xspd = 4{
 //	xspd = -4

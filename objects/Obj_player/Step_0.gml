@@ -12,7 +12,7 @@ xspd = (right_key-left_key)*move_speed;
 
 
 
-if place_meeting(x , y + 0.005, Obj_wall) == true
+if(place_meeting(x , y + 0.005, Obj_wall) == true||place_meeting(x , y + 0.005, Obj_chicken_normal) == true)
 	{
 		if(keyboard_check(vk_up)){
 			if obj_manager.move = true{
@@ -36,8 +36,12 @@ if place_meeting(x , y + yspd, Obj_wall) == true
 	yspd=0;
 	fall=0;
 	}
-
-if place_meeting(x + xspd, y, Obj_die) == true
+if place_meeting(x , y + yspd, Obj_chicken_normal) == true
+	{
+	yspd=0;
+	fall=0;
+	}
+if place_meeting(x + xspd-0.1, y, Obj_die) == true
 	{
 	if obj_manager.hp > 0{
 	obj_manager.hp = 0
@@ -45,7 +49,7 @@ if place_meeting(x + xspd, y, Obj_die) == true
 	obj_manager.dead = true
 	}
 	}
-if place_meeting(x , y + yspd, Obj_die) == true
+if place_meeting(x , y + yspd-0.1, Obj_die) == true
 	{
 	if obj_manager.hp > 0{
 	obj_manager.hp = 0
@@ -67,7 +71,13 @@ if place_meeting(x , y + yspd, Obj_die) == true
 //	room_goto(restart)
 //}
 
-	
+if place_meeting(x + xspd,y,Obj_chicken_normal) == true{
+	if place_meeting(x + xspd, y, Obj_wall) == false{
+		xspd+=Spr_chicken_normal.xspd;
+	}
+	 
+	}
+
 		
 
 
