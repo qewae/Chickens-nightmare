@@ -1,4 +1,4 @@
-if collision_rectangle (x-2,y-2,x+35,y+7,Obj_player,false,false){
+if collision_rectangle (x-2,y-2,x+x1,y+y1,Obj_player,false,false){
 	
 	if obj_manager.hp > 0{
 	

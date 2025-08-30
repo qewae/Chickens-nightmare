@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -52,6 +52,7 @@
     {"id":{"name":"spr_chicken","path":"sprites/spr_chicken/spr_chicken.yy",},},
     {"id":{"name":"spr_dead","path":"sprites/spr_dead/spr_dead.yy",},},
     {"id":{"name":"Spr_die","path":"sprites/Spr_die/Spr_die.yy",},},
+    {"id":{"name":"spr_NormalChickRight","path":"sprites/spr_NormalChickRight/spr_NormalChickRight.yy",},},
     {"id":{"name":"spr_out","path":"sprites/spr_out/spr_out.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_portal","path":"sprites/spr_portal/spr_portal.yy",},},

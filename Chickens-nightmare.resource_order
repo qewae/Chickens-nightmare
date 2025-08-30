@@ -32,6 +32,7 @@
     {"name":"spr_chicken","order":9,"path":"sprites/spr_chicken/spr_chicken.yy",},
     {"name":"spr_dead","order":7,"path":"sprites/spr_dead/spr_dead.yy",},
     {"name":"Spr_die","order":2,"path":"sprites/Spr_die/Spr_die.yy",},
+    {"name":"spr_NormalChickRight","order":10,"path":"sprites/spr_NormalChickRight/spr_NormalChickRight.yy",},
     {"name":"spr_out","order":4,"path":"sprites/spr_out/spr_out.yy",},
     {"name":"spr_portal","order":3,"path":"sprites/spr_portal/spr_portal.yy",},
     {"name":"Spr_wall","order":1,"path":"sprites/Spr_wall/Spr_wall.yy",},

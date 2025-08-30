@@ -13,6 +13,12 @@ if place_meeting(x + xspd,y,Obj_wall) == true{
 		x = x + 3
 	}
 }
+if xspd = 1{
+	sprite_index = Spr_chicken_normal
+}
+else{
+	sprite_index = spr_NormalChickRight
+}
 
 
 //if place_meeting(x - xspd,y,Obj_wall) == true{
