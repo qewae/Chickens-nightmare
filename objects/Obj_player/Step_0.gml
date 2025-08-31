@@ -20,9 +20,15 @@ if(place_meeting(x , y + 0.005, Obj_wall) == true||place_meeting(x , y + 0.005, 
 			}
 		
 		}
+		
 		fall=0;
 	//fall-=0.02;
 	}
+	else if place_meeting(x , y + yspd, Obj_jump) == true
+			{
+				fall=0;
+				yspd=-5;
+			}
 	else{
 	fall+=0.005;
 	yspd+=fall;
@@ -36,6 +42,7 @@ if place_meeting(x , y + yspd, Obj_wall) == true
 	yspd=0;
 	fall=0;
 	}
+
 if place_meeting(x , y + yspd, Obj_chicken_normal) == true
 	{
 	yspd=0;
