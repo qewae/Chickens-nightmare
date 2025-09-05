@@ -12,8 +12,8 @@
   "name":"Obj_chicken_normal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Chickens",
-    "path":"folders/Objects/Chickens.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

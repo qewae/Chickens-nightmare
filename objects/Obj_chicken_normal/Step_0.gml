@@ -13,6 +13,19 @@ if place_meeting(x + xspd,y,Obj_wall) == true{
 		x = x + 3
 	}
 }
+	if place_meeting(x + xspd,y,obj_air) == true{
+	if xspd = 1{
+		xspd = 0
+	alarm_set(0,2)
+	x = x - 3
+	
+	}
+	if xspd = -1 {
+		alarm_set(1,2)
+		xspd = 0
+		x = x + 3
+	}
+}
 if xspd = 1{
 	sprite_index = Spr_chicken_normal
 }

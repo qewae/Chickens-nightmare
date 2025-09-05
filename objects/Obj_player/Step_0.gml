@@ -10,7 +10,9 @@ xspd = (right_key-left_key)*move_speed;
 
 //collisions
 
-
+if yspd > 15{
+	yspd = 15
+}
 
 if(place_meeting(x , y + 0.005, Obj_wall) == true||place_meeting(x , y + 0.005, Obj_chicken_normal) == true)
 	{
@@ -80,7 +82,7 @@ if place_meeting(x , y + yspd-0.1, Obj_die) == true
 
 if place_meeting(x + xspd,y,Obj_chicken_normal) == true{
 	if place_meeting(x + xspd, y, Obj_wall) == false{
-		xspd+=Spr_chicken_normal.xspd;
+		xspd+=Obj_chicken_normal.xspd;
 	}
 	 
 	}
